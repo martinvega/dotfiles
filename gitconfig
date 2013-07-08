@@ -1,0 +1,16 @@
+[user] 
+  name = Martín Vega
+  email = martin.vega7@gmail.com
+[color]
+  pager = true
+  ui = auto
+[core]
+  excludesfile = ~/.gitignore_global
+  pager = less -FRSX
+  editor = vim
+[diff]
+  tool = vimdiff
+[format]
+  pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[push]
+  default = simple
