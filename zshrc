@@ -11,7 +11,7 @@ ZSH_TMUX_AUTOSTART="true"
 # Aliases
 alias zshconfig="vim ~/.zshrc"
 
-plugins=(bundler gem git rails4 ruby)
+plugins=(bundler gem git rails ruby)
 
 source $ZSH/oh-my-zsh.sh
 
