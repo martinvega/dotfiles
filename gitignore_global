@@ -14,6 +14,7 @@
 *.log
 *.sql
 *.sqlite
+*.sqlite3
 
 # OS generated files #
 ######################
@@ -25,15 +26,6 @@
 
 # Editor temporal files #
 #########################
+*.*.swp
 *.swp
 *~
-
-# Emacs files #
-###############
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-.elc
-auto-save-list
-tramp
-.\#*

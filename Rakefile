@@ -16,7 +16,7 @@ private
 def copy_files
   replace_all = false
   
-  files = Dir['*'] - %w[git gitignore gitconfig zshrc]
+  files = Dir['*'] - %w[vimrc git gitignore gitconfig zshrc]
 
   files.each do |file|
     puts %x{mkdir -p "$HOME/.#{File.dirname(file)}"} if file =~ /\//
@@ -69,7 +69,7 @@ def link_file(file)
     end
   else
     puts "linking ~/.#{file}"
-    puts %x{ln -s "$PWD/.#{file}" "$HOME/.#{file}"}
+    puts %x{ln -s "$PWD/#{file}" "$HOME/.#{file}"}
   end
 end
 

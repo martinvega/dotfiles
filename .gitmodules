@@ -43,3 +43,6 @@
 [submodule "vim/bundle/rake"]
 	path = vim/bundle/rake
 	url = https://github.com/tpope/vim-rake
+[submodule "vim/bundle/trailing-whitespace"]
+	path = vim/bundle/trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
